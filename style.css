@@ -1,0 +1,261 @@
+/* =========================
+   Base
+   ========================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family:
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  line-height: 1.7;
+}
+
+/* =========================
+   Main container
+   ========================= */
+
+.container {
+  width: min(900px, 90%);
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+/* =========================
+   Header / Hero
+   ========================= */
+
+.hero {
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0;
+  color: #e6edf3;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+/* =========================
+   Headings
+   ========================= */
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #569cd6;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #e6edf3;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+/* =========================
+   Text
+   ========================= */
+
+p {
+  margin: 0 0 1.25rem;
+}
+
+strong {
+  color: #e6edf3;
+}
+
+a {
+  color: #569cd6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   TL;DR
+   ========================= */
+
+.tldr {
+  margin-bottom: 70px;
+  padding: 30px;
+  background-color: #252526;
+  border: 1px solid #333333;
+  border-radius: 6px;
+}
+
+/* =========================
+   Story link section
+   ========================= */
+
+.story-link {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #333333;
+}
+
+.story-link p {
+  color: #9da1a6;
+}
+
+/* =========================
+   Language buttons
+   ========================= */
+
+.language-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.language-button {
+  display: inline-block;
+  padding: 10px 24px;
+  color: #d4d4d4;
+  background-color: #252526;
+  border: 1px solid #3f3f46;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.language-button:hover {
+  background-color: #333333;
+  border-color: #569cd6;
+  text-decoration: none;
+}
+
+/* =========================
+   Full story
+   ========================= */
+
+.story {
+  margin-top: 20px;
+}
+
+.story-title {
+  margin-bottom: 45px;
+  color: #e6edf3;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  line-height: 1.25;
+}
+
+/* =========================
+   Chapters
+   ========================= */
+
+.chapter {
+  margin-bottom: 65px;
+}
+
+.chapter h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333333;
+}
+
+.chapter p:last-child {
+  margin-bottom: 0;
+}
+
+/* =========================
+   Inline code
+   ========================= */
+
+code {
+  padding: 2px 5px;
+  background-color: #252526;
+  color: #ce9178;
+  border-radius: 3px;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.9em;
+}
+
+/* =========================
+   Navigation
+   ========================= */
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 45px;
+  color: #569cd6;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   Footer
+   ========================= */
+
+footer {
+  margin-top: 70px;
+  padding-top: 25px;
+  border-top: 1px solid #333333;
+  color: #6f7378;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* =========================
+   Mobile
+   ========================= */
+
+@media (max-width: 600px) {
+  .container {
+    width: 92%;
+    padding: 45px 0;
+  }
+
+  .hero {
+    margin-bottom: 40px;
+  }
+
+  .tldr {
+    padding: 22px;
+  }
+
+  .chapter {
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    font-size: 1.45rem;
+  }
+
+  .story-title {
+    font-size: 2rem;
+  }
+
+  .language-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .language-button {
+    text-align: center;
+  }
+}
