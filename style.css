@@ -260,3 +260,32 @@ footer {
     text-align: center;
   }
 }
+
+/* =========================
+   Behind the scenes
+   ========================= */
+
+.process-section {
+  margin-bottom: 65px;
+}
+
+.process-section h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333333;
+}
+
+.file-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 18px;
+  background-color: #252526;
+  border: 1px solid #3f3f46;
+  border-radius: 5px;
+  font-family: Consolas, "Courier New", monospace;
+}
+
+.file-link:hover {
+  background-color: #333333;
+  border-color: #569cd6;
+  text-decoration: none;
+}
