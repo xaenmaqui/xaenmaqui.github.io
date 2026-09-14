@@ -1,0 +1,18 @@
+
+1. "hola chatgpt edítame éste .txt como si fuera una historia bien narrada, recuerda que esto es una historia mía, es personal, es "mi viaje a través de la tecnología", no uses los dashes em, tampoco palabras complicadas o raras, tampoco cambies mi "tono" en los eventos que suceden en la historia."
+
+// Estuvo bueno, la IA puso capítulos, aunque vi bastantes espacios entre oraciones, así que lo cambié. //
+
+2. "Traduce el documento a español, pero en un español neutro, sin  modismos, tampoco palabras complicadas, sólo un español neutral que cualquier persona que sepa español sepa lo que está leyendo sin necesidad de googlear una palabra, recuerda no cambiar el "tono" de la historia."
+
+// Aquí hubo algo de errores, la mayoría fueron saltarse partes de las historias como lo que pasó en el 2000, etc, pero lo volví a escribir. //
+
+3. "Convierte los archivos a .html y añade un index con el título "My journey through technology", añade un "TL;DR" en el medio, dentro de una caja, con dos botones que digan "English" y "Español" al último de la página."
+
+// Normal, hizo lo que le pedí. //
+
+4. "Para el archivo css, sólo pon un fondo oscuro, algo negro pero más que parezca gris, texto que se pueda leer bien, nada brillante. Para los titulares usa un tono de azul un poquito más brillante, los botones tienen que ser rectángulos con los bordes redondos, con un efecto que cuando pase el cursor el botón se vuelva un poquito más brillante y los bordes se cambien al color de los titulares. Todo tiene que estar centrado.
+Si falta algo o no me gusta, lo arreglo o lo cambio a mi gusto.
+Usaré vscode para testear todos los archivos antes de subirlos a github."
+
+// Normal también, algunas cositas como los márgenes estaban como muy pegados a los botones y al texto inicial, así que los cambié. //
