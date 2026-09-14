@@ -1,0 +1,18 @@
+
+1. "Hey chatgpt can you edit this .txt into a better narrated story, bear in mind that this a personal story of mine, it's "my journey through technology", don't use em dashes, don't use complicated words and don't change my "tone" of the events in the story."
+
+// It was good, the ai put chapters in it, saw a lot of space between some words or paragraphs, i fixed them. //
+
+2. "Translate it into spanish, a neutral spanish, no slangs, no complicated words either, just neutral spanish that anyone who knows spanish can read the text without the need to google a word, also, don't change my "tone" of the events."
+
+// It had some errors, but most of them were like skipping parts of the story in between chapters, i added them back. //
+
+3. "Make those files into two html files and add another html like a homepage/index with the title "My journey through technology", a "TL;DR" in the middle, inside a box, with two buttons that says "English" and "Español" at the bottom of the html."
+
+// It was normal, it did that i asked it to do. //
+
+4. "For the css file just a dark background, kinda black but more on the grey side, readable text, nothing bright. For the accents/headers use some tone of blue but a little bit more light, buttons should be square rounded, with a hover effect that makes the button a little bit lighter and the borders the same color as the accent/header. All should be centered.
+If something's missing or i don't like it, i'll just fix it or change it into to my liking.
+I'll be using vscode for testing all these files before uploading it to github."
+
+// Normal again, some margins where too close to the buttons and the text, i just changed them. //
